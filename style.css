@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+
+/* header section style starts here */
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url(images/banner/banner1.png);
+  height: 808px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-bottom: 131px;
+  vertical-align: middle;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 30px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f15b22;
+  padding-bottom: 3px;
+  transition: all linear 0.4s;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid black;
+}
+
+header .header-content {
+  position: absolute;
+  right: 230px;
+  top: 216px;
+  width: 525px;
+  text-align: right;
+}
+
+.header-content h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.header-content p {
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin: 24px 0 32px;
+}
+
+.header-content button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f15b22;
+  padding: 20px 26px;
+  border: none;
+  border-radius: 5px;
+}
+/* header section style ends here */
+
+/* previous section style starts here */
+.previous-section {
+  max-width: 1072px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 87px;
+  margin-bottom: 130px;
+}
+
+.previous-section img {
+  max-width: 569px;
+  position: relative;
+}
+
+.previous-section .previous-text {
+  max-width: 416px;
+}
+
+.previous-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.previous-text p {
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin: 24px 0 16px;
+}
+
+.previous-text ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444343;
+}
+
+.previous-text li::before {
+  content: "✔";
+  position: absolute;
+  color: green;
+  left: 0px;
+}
+/* previous section style ends here */
+
+/* Plans section style starts here */
+.plans-section {
+  max-width: 1141px;
+  margin: 0 auto;
+}
+
+.plans-section .plans-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 135px;
+}
+
+.skills img {
+  width: 93px;
+}
+
+.skills h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 24px 0 20px;
+}
+
+.skills p {
+  font-size: 25px;
+  font-weight: 600;
+  color: #737272;
+}
+/* Plans section style ends here */
+
+/* mindset section style starts here */
+.mindset-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  position: relative;
+}
+
+.mindset-section img {
+  max-width: 1140px;
+}
+
+.mindset-layer {
+  background-image: url(images/gradient3.png);
+  width: 1140px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.mindset-text {
+  width: 459px;
+  position: absolute;
+  top: 59px;
+  left: 64px;
+  z-index: 9;
+}
+
+.mindset-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.common-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f15b22;
+  padding: 20px 36px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+/* mindset section style ends here */
+
+/* footer section style starts here */
+footer {
+  width: 1600px;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.footer-section {
+  max-width: 1141px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 331px;
+  padding: 130px 0;
+}
+
+.footer-content {
+  max-width: 485px;
+}
+
+.footer-content h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.footer-content p {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 16px 0;
+}
+
+.social-icon img {
+  font-size: 47px;
+  margin-right: 17px;
+}
+
+.footer-form h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-form input[type="email"] {
+  width: 325px;
+  height: 64px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  outline: none;
+  background-color: black;
+  color: #ffffff;
+  margin: 31px 0 16px;
+  padding: 21px;
+  font-size: 18px;
+}
+
+.footer-form input::placeholder {
+  color: #ffffff;
+  font-size: 18px;
+}
+/* footer section style ends here */
