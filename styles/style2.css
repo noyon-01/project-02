@@ -16,7 +16,7 @@ body {
 header {
   max-width: 1600px;
   margin: 0 auto;
-  background-image: url(images/banner/banner1.png);
+  background-image: url(/images/banner/banner3.png);
   height: 808px;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 700;
-  color: #f15b22;
+  color: #000000;
   padding-bottom: 3px;
   transition: all linear 0.4s;
 }
@@ -181,7 +181,7 @@ header .header-content {
 }
 
 .mindset-layer {
-  background-image: url(images/gradient3.png);
+  background-image: url(images/gradient1.png);
   width: 1140px;
   height: 300px;
   position: absolute;
@@ -275,5 +275,10 @@ footer {
 .footer-form input::placeholder {
   color: #ffffff;
   font-size: 18px;
+}
+
+.btn-3 {
+    background-color: #005FAC;
+    color: #ffffff;
 }
 /* footer section style ends here */
