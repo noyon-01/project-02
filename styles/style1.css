@@ -16,7 +16,7 @@ body {
 header {
   max-width: 1600px;
   margin: 0 auto;
-  background: url(../images/banner/banner2.png);
+  background-image: url(../images/banner/banner2.png);
   height: 808px;
   background-repeat: no-repeat;
   background-position: center;
